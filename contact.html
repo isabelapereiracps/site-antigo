@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+	<html>
+		
+		<head>
+			 <meta charset="UTF-8">
+			 <title> DeadlyCute~Contact Info </title>
+			 <link rel="stylesheet" href="contact-sheet.css">
+			 <link rel="stylesheet" href="reset.css">
+		</head>
+
+		<body>
+			<header>
+				<div class="caixa">
+					<h1><img src="deadlycute.png" class="cute" alt="Panacea Logo"></h1>
+					<nav>
+						<ul>
+							<li><a href="home.html">Home</a></li>
+							<li><a href="produto.html">Products</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>	
+					</nav>
+
+				</div>
+			</header>
+
+			<main>
+				<form class="forma">
+						<label for="name"> Full Name </label>
+						<input type="text" id="name" class="padrao" required placeholder="Ex:John Doe">
+
+						<label for="email"> Email </label>
+						<input type="email" id="email" class="padrao" required placeholder="Ex:JohnDoe@xxxxx.com">
+
+						<label for="phone"> Cellphone Number </label>
+						<input type="tel" id="phone" class="padrao" required placeholder="(XX) xxxxx-xxxx">
+
+						<label for="message">Message</label>
+						<textarea cols="60" rows="10" id-="message" class="padrao" required placeholder="Ex:John Doe"></textarea>
+
+							<fieldset>
+								<legend>Contact Preferences</legend>
+								<label for ="r-email"><input type="radio" name="contact" value="email" id="r-email" checked> Email </label>
+
+								<label for ="r-phone"><input type="radio" name="contact" value="telephone" id="r-phone"> Cellphone </label>
+
+								<label for ="r-WS"><input type="radio" name="contact" value="whatssap" id="r-WS"> Whatssap </label>
+							</fieldset>
+
+							<fieldset>
+								<legend>At what time would you like to be contacted?</legend>
+								<select>
+									<option>Morning</option>
+									<option>Noon</option>
+									<option>Night</option>
+								</select>
+							</fieldset>
+
+
+								<label><input type="checkbox" class="checkbox"> Would you like to receive our news via email?</label>
+
+					<input type="submit" value="Send Form" class="send">
+				</form>
+
+				<table class="cabelo">
+					<thead>
+						<tr>
+							<th>Workshop Day</th>
+							<th>Available Time</th>
+						</tr>
+					</thead>	
+					<tbody>
+						<tr>
+							<td>Monday to Friday</td>
+							<td>9AM - 6PM</td>
+						</tr>
+						<tr>
+							<td>Saturday</td>
+							<td>10AM - 5PM</td>
+						</tr>
+						<tr>
+							<td>Sunday or Holidays</td>
+							<td>11 PM - 5AM </td>
+						</tr>
+					</tbody>
+				</table>
+
+			</main>
+
+			<footer>
+				<p class="copyright">&copy;Copyright DeadlyCute - 2023</p>
+			</footer>
+		</body>
+	</html>

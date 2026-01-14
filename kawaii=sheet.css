@@ -1,0 +1,96 @@
+body {font-family: 'EB Garamond', serif; background:#fffbfd}
+
+header {background:#ffbbd0; padding: 10px 0;}
+
+.caixa {position:relative; width: 920px;margin:0 auto;}
+
+.cute {width:20%;height: 50%}
+
+section{text-align: center}
+
+
+/*pagina inicial*/
+.R {width: 100%}
+
+.hedy {color:#da5689;text-align: center;
+		font-size: 40px;padding: 20px}
+
+.central {color:#da5689;text-align: center;
+			font-size: 2em;padding: 10px;
+			margin: 0 0 1em; clear: left;}
+
+.principal {padding: 1em 0;background:#fffbfd}
+
+	.principal p {margin: 0 0 1em; font-size: 19px;padding:10px;}
+
+	.principal strong{font-weight: bold;}
+
+	.principal em {font-style: italic;}
+
+.estabe {color:#da5689;text-align: center;
+	font-size: 35px;padding: 5px; margin: 0 0 1em;}
+
+	.estabe:first-letter {font-weight: bold;}
+
+	.estabe:before {content:"[";}
+
+	.estabe:after {content:"]";}
+
+.estabe p {font-size: 18px;}
+
+.title-bene {color:#da5689;text-align: center;
+	font-size: 29px;padding: 2em 0; margin: 1em;}
+
+.central-bene {color:#da5689;text-align: center;
+			font-size: 18px;padding: 3em 0; margin: 0 0 1em;
+			background:linear-gradient(#ffbbd0,#f39db7);}
+
+.central-bene h3 {font-size: 37px;}
+
+.listbene {width: 40%; display: inline-block;vertical-align: top; text-align: left;}
+
+.itens {font-size: 19px;line-height: 1.5;margin: 1 auto}
+
+.itens:first-child {font-weight: bold}
+
+.itens:before {
+    content: "★";
+}
+
+.beneitens {width: 640px; margin: 0 auto;}
+
+.imgd {width: 60%;opacity: 0.8; transition: 2s;box-shadow: 10px 10px #e67698;}
+
+.imgd:hover {opacity: 1;}
+
+.map {width: 55%}
+
+	.mapa {background: linear-gradient(#fffbfd,#ffbbd0);}
+
+	.mapa p{padding: 2em 0; margin: 1em;font-size: 19px;}
+
+.video {; margin: 2em auto;}
+
+.vid {;background: #f39db7;}
+
+@media screen and (max-width: 480px)
+
+{.caixa, .principal, .central-bene, .mapa, .video{width: auto;}}
+
+nav li{display: inline;margin: 0 0 0 15px;}
+
+nav a {text-transform: uppercase; color:#ef8caa;
+	  font-weight: bold;font-size: 22px;
+	  text-decoration: none}
+
+nav {position: absolute; top:120px;right:0;}
+
+nav a:hover{color:#ed7594;text-decoration: underline;}
+
+footer {text-align: center;background:#ffbbd0;padding: 20px 0}
+
+.copyright {color:#ed7594;font-size: 18px;margin-bottom: 10px 0}
+
+.footer{width: 180px}
+
+
